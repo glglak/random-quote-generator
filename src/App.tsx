@@ -1,16 +1,1 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-function App() {
-  return (
-    <Router>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-        <Routes>
-          <Route path="/" element={<div>Home Page</div>} />
-        </Routes>
-      </div>
-    </Router>
-  );
-}
-
-export default App;
+aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgQnJvd3NlclJvdXRlciBhcyBSb3V0ZXIsIFJvdXRlcywgUm91dGUgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJzsKCmZ1bmN0aW9uIEFwcCgpIHsKICByZXR1cm4gKAogICAgPFJvdXRlcj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS05MDAiPgogICAgICAgIDxSb3V0ZXM+CiAgICAgICAgICA8Um91dGUgcGF0aD0iLyIgZWxlbWVudD17PGRpdj5Ib21lIFBhZ2U8L2Rpdj59IC8+CiAgICAgICAgPC9Sb3V0ZXM+CiAgICAgIDwvZGl2PgogICAgPC9Sb3V0ZXI+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgQXBwOw==
